@@ -1,0 +1,269 @@
+button {
+  border: none;
+}
+
+.App {
+  text-align: center;
+  background-color: white
+}
+
+.container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.header {
+  background-color: #a879e6;
+  width: 100px;
+  height: 20px;
+  box-shadow: 0px 0px 21px -7px rgba(0, 0, 0, 0.3);
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.header > h1  {
+  font-size: 15px;
+}
+
+.teste{
+  border-color: #dae0f5!important;
+  background:  #F2F2F2;
+  border: none;
+  color:#000000;
+  min-width:1000px ;
+  border-radius: 30px;  
+}
+
+.teste > thead {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Arimo', sans-serif;
+}
+
+.teste > tbody{
+  font-family: 'Arimo', sans-serif;
+  font-size: 13px;
+}
+
+.live{
+  grid-area: butao;
+  width: 180px !important;
+  height: 50px !important;
+  background-color:  #E4E9EB;
+  border-radius: 10px;
+  font-family: 'Arimo', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color:  #8B949B;
+}
+
+.Positivo{
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background: #DFF0D2;
+  border-radius: 10px;
+  color: #63A14E;
+
+  
+}
+
+.Negativo{
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background:  #F0E4D8;
+  border-radius: 10px;
+  color: #B67267;
+}
+
+#Edit{
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background: #F5E7D1;
+  margin-left: 5px;
+  border-radius: 10px;
+  color: #D8A752;
+}
+
+.sideTable{
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  margin-left: 20px;
+  min-height: 680px;
+}
+
+.relatorios{
+  border-radius: 30px;
+  box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.2);
+  width: 200px;
+  background-color: #F2F2F2;
+  margin-top: 30px;
+}
+
+.ReactModal__Content{
+background-color: #ffffff !important;
+top: 50% !important;
+left: 50% !important;
+right: auto !important; 
+bottom: auto !important;
+margin-right: -50% !important;
+transform: translate(-50%, -50%) !important;
+border-radius: 30px !important;
+height: auto;
+width: 377px;
+text-align: center;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+label{
+  margin-right: 240px;
+  padding: 5.5px;
+  text-align: left;
+  color: #727272;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+#EditInputName > input,#EditInputSexo > input,#EditTimeDoKokoro > input,#EditTimeOfHearth > input,.CreateInputSexo > input,.CreateInputName > input,.CreateInputCpf > input,.CreateInputTimeDoKokoro > input{
+  border-radius: 10px;
+  background: #F2F2F2;
+  width: 280px;
+  height: 42px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+ 
+}
+
+#EditInputIdade > input,.CreateInputIdade > input{
+  border-radius: 10px;
+  background: #F2F2F2;
+  width: 52px;
+  height: 35px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 12px;
+  margin-right: 230px;
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+}
+
+#EditInputSocioTorcedor > input{
+  border-radius: 5px;
+  background-color: #F2F2F2;
+  width: 26px;
+  height: 21px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #577CFF !important;
+  padding: 5px ;
+  margin-top: -50px;
+  margin-left: -70px;
+  position: absolute;
+}
+
+.CreateInputSocioTorcedor > input{
+  border-radius: 5px;
+  background-color: #F2F2F2;
+  width: 26px;
+  height: 21px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #577CFF !important;
+  padding: 5px ;
+  margin-top: -25px;
+  margin-left: -85px;
+  position: absolute;
+}
+
+.labelSocioTorcedor{
+  margin-top: -30px;
+  margin-left: -45px;
+  position: absolute;
+}
+
+.labelCreateSocio{
+  margin-top: -30px;
+  margin-left: -65px;
+  position: absolute;
+}
+
+.labelTimeDoCoração{
+  margin-left: 22px;
+  margin-bottom: -15px;
+  width: 50%;
+  display: block
+}
+
+.CreateInputTimeDoKokoro > input{
+  margin-top: 20px;
+}
+
+.buttonEditModal, .buttonCreateModal{
+  border-radius: 10px;
+  background-color: #727272;
+  color: #F2F2F2;
+  width: 280px;
+  height: 38px;
+  margin-top: 66px;
+}
+
+#premium_torcedor{
+  border-radius: 5px;
+  background-color: #F2F2F2;
+  width: 26px;
+  height: 21px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #577CFF !important;
+  padding: 5px ;
+  margin-top: -25px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.labelCreatePremium{
+  margin-top: -30px;
+  margin-left: 60px;
+  position: absolute;
+}
+
+.inputRelatorioTimes{
+  border-radius: 10px;
+  background: #F2F2F2;
+  width: 280px;
+  height: 42px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  margin-top: 10px
+}
+
+.buttonRelatorioModal{
+  border-radius: 10px;
+  background-color: #727272;
+  color: #F2F2F2;
+  width: 280px;
+  height: 38px;
+  margin-top: 20px;
+}
