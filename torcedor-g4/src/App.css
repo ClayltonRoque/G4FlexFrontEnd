@@ -76,8 +76,6 @@ button {
   background: #DFF0D2;
   border-radius: 10px;
   color: #63A14E;
-
-  
 }
 
 .Negativo{
@@ -219,7 +217,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
   margin-top: 20px;
 }
 
-.buttonEditModal, .buttonCreateModal{
+.buttonEditModal, .buttonCreateModal.buttonLoginModal{
   border-radius: 10px;
   background-color: #727272;
   color: #F2F2F2;
@@ -267,3 +265,46 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
   height: 38px;
   margin-top: 20px;
 }
+
+#login{
+  position: absolute;
+  bottom: auto;
+  top:  50%;
+  left: 50%;
+  right: auto;
+  margin: auto; 
+  background-color: #ffffff ;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+#LoginInputName > input{
+  border-radius: 10px;
+  background: #F2F2F2;
+  width: 280px;
+  height: 42px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.labelLogin{
+  margin-left: 22px;
+  margin-bottom: -15px;
+  width: 50%;
+  display: block
+}
+
+.buttonLogin{
+  border-radius: 10px;
+  background-color: #727272;
+  color: #F2F2F2;
+  width: 280px;
+  height: 38px;
+  margin-top: 30px;
+}
+
